@@ -47,13 +47,13 @@
         <repository>
                 <id>deployment</id>
                 <name>Internal Releases</name>
-                <url>http://mydevopsbox:8081/repository/maven-releases/</url>
+                <url>http://cinode:8081/repository/maven-releases</url>
         </repository>
 
         <snapshotRepository>
                 <id>deployment</id>
                 <name>Internal Releases</name>
-                <url>http://mydevopsbox:8081/repository/maven-snapshots/</url>
+                <url>http://cinode:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
 
 </distributionManagement>
